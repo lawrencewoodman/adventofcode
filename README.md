@@ -3,6 +3,7 @@ Advent of Code
 
 Entries for the [Advent of Code](https://adventofcode.com) challenge.
 
+The entries will probably all be in [tcl](https://wiki.tcl-lang.org/).
 
 Licence
 -------
