@@ -1,3 +1,5 @@
+# Code for Day 1 of Advent of Code: https://adventofcode.com/2018/day/1
+#
 # Copyright (C) 2018 Lawrence Woodman <lwoodman@vlifesystems.com>
 # Licensed under an MIT licence.  Please see LICENCE.md for details.
 
