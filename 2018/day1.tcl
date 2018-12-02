@@ -6,14 +6,7 @@ set input [read $fp]
 close $fp
 
 proc part1 {input} {
-  set sum 0
-  foreach line $input {
-    if {$line != ""} {
-      set sum [expr {$sum + $line}]
-      set freqs($sum) 1
-    }
-  }
-  return $sum
+  return [::tcl::mathop::+ {*}$input]
 }
 
 proc part2 {freqs startFreq input} {
