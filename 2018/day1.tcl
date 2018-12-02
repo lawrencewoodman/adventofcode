@@ -4,7 +4,6 @@
 set fp [open "day1.input" r]
 set input [read $fp]
 close $fp
-set input [split $input "\n"]
 
 proc part1 {input} {
   set sum 0
