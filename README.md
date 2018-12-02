@@ -3,7 +3,9 @@ Advent of Code
 
 Entries for the [Advent of Code](https://adventofcode.com) challenge.
 
-The entries will probably all be in [tcl](https://wiki.tcl-lang.org/).
+2018
+----
+For this year I have decided to do [25 days in 25 languages](https://techtinkering.com/articles/advent-of-code-2018-25-days-25-languages/).  Each day will have a solution in [tcl](https://wiki.tcl-lang.org/). Then for all but the first day there will be an another in a different language.
 
 Licence
 -------
