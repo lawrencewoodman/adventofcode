@@ -13,7 +13,7 @@ set input [lrange $input 0 end-1]
 
 proc isOppositeCase {a b} {
   return [expr {
-    $a != $b && ([string toupper $a] == $b || [string tolower $a] == $b)
+    $a != $b && ([string tolower $a] == [string tolower $b])
   }]
 }
 
