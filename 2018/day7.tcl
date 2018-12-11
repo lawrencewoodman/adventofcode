@@ -4,7 +4,7 @@
 # Copyright (C) 2018 Lawrence Woodman <lwoodman@vlifesystems.com>
 # Licensed under an MIT licence.  Please see LICENCE.md for details.
 
-set fp [open "day7.input" r]
+set fp [open "day7.input.test" r]
 set input [read $fp]
 close $fp
 set input [split $input "\n"]
