@@ -12,7 +12,7 @@ set input [split $input " "]
 
 
 proc getChildren {header} {
-  lassign $header numChildNodes numMetadata
+  lassign $header numChildNodes
   set children {}
   set totalNumNums 0
   set p 2
