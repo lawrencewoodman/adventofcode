@@ -20,10 +20,7 @@ let rec GetChildren (header : array<Int32>) =
   (List.rev children, totalNumNums)
 
 and ParseHeader header =
-  let metadata = []
-  let numChildNodes = header.[0]
   let numMetadata = header.[1]
-
   let (children, numNums) = GetChildren header
   let metadata =
     if numMetadata > 0 then
