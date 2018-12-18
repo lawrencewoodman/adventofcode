@@ -16,6 +16,7 @@ Languages so far:
   * Commodore 128 Basic
   * Pascal
   * F#
+  * Julia
 
 Licence
 -------
