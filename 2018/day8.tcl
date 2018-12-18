@@ -11,20 +11,6 @@ set input [string trim $input]
 set input [split $input " "]
 
 
-proc getChildrenOld {header} {
-  lassign $header numChildNodes
-  set children {}
-  set totalNumNums 0
-  set p 2
-  for {set i 0} {$i < $numChildNodes} {incr i} {
-    lassign [parseHeader [lrange $header $p end]] childNode numNums
-    lappend children $childNode
-    incr totalNumNums $numNums
-    incr p $numNums
-  }
-  return [list $children $totalNumNums]
-}
-
 proc getChildren {header} {
   lassign $header numChildNodes
   set children {}
