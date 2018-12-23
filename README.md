@@ -17,6 +17,7 @@ Languages so far:
   * Pascal
   * F#
   * Julia
+  * JavaScript
 
 Licence
 -------
