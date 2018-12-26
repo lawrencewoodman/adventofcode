@@ -18,6 +18,7 @@ Languages so far:
   * F#
   * Julia
   * JavaScript
+  * Pyret
 
 Licence
 -------
