@@ -78,7 +78,7 @@ proc findAnyLargestSquare {gridName} {
   set maxTotalPowerY 0
   set maxTotalPowerSize 1
   for {set y 1} {$y <= 300} {incr y} {
-    for {set x 1} {$x < 300} {incr x} {
+    for {set x 1} {$x <= 300} {incr x} {
       set squarePower [calcSquarePower $gridName 1 $x $y]
       for {set size 2} {$size <= 300} {incr size} {
         if {$x+$size <= 300 && $y+$size <= 300} {
